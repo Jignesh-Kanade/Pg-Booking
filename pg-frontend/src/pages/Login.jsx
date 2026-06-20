@@ -52,8 +52,8 @@ const Login = () => {
           {/* Demo credentials hint */}
           <div className={`mb-6 p-3 rounded-xl text-xs ${darkMode ? 'bg-gray-700 text-gray-300' : 'bg-gray-50 text-gray-500'}`}>
             <p className="font-medium mb-1">Demo accounts:</p>
-            <p>Student: student@example.com / student123</p>
-            <p>Owner: owner@example.com / owner123</p>
+            <p>Student: student@comfortpg.com / student123</p>
+            <p>Owner: owner@comfortpg.com / owner123</p>
           </div>
 
           <form onSubmit={handleLogin} className="space-y-5">
