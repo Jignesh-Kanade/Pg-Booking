@@ -11,7 +11,7 @@
 
 ### A full-stack paying guest accommodation platform with dedicated portals for Students, Owners, and Admins
 
-**[🌐 Live Demo](https://comfortpg-frontend.onrender.com)** &nbsp;|&nbsp; **[⚙️ Backend API](https://comfortpg-backend.onrender.com/api/pgs/all)** &nbsp;|&nbsp; **[📁 GitHub](https://github.com/yourusername/pgbookingsystem)**
+**[🌐 Live Demo](https://comfortpg-frontend.onrender.com)** &nbsp;|&nbsp; **[📁 GitHub](https://github.com/Jignesh-Kanade/pgbookingsystem)**
 
 </div>
 
