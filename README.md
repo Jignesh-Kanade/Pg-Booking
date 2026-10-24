@@ -11,7 +11,7 @@
 
 ### A full-stack paying guest accommodation platform with dedicated portals for Students, Owners, and Admins
 
-**[🌐 Live Demo](https://comfortpg-frontend.onrender.com)** &nbsp;|&nbsp;
+**[🌐 Live Demo](https://comfortpg-frontend.onrender.com)** &nbsp;
 </div>
 
 ---
