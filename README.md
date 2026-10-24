@@ -156,45 +156,6 @@ Student clicks Pay
 
 ---
 
-## 🗄️ Database Schema
-
-```
-users
-├── id, name, email, password (BCrypt), role (USER/OWNER/ADMIN)
-
-pgs
-├── id, name, address, city, description, rent
-├── available_rooms, type, category, size
-├── primary_image (TEXT), rating, review_count
-├── verified (boolean), verification_status
-└── owner_id → users.id
-
-pg_amenities
-└── pg_id, amenity
-
-pg_images  
-└── pg_id, image_url
-
-bookings
-├── id, user_id → users.id, pg_id → pgs.id
-├── check_in_date, check_out_date, status
-├── total_amount, platform_fee (10%), owner_earnings (90%)
-└── booking_date
-
-reviews
-├── id, rating, comment, created_at
-├── pg_id → pgs.id, user_id → users.id
-
-notifications
-├── id, title, message, read_flag, created_at
-└── user_id → users.id
-
-bills
-├── id, amount, description, created_at
-└── user_id → users.id
-```
-
----
 
 ## 🛠️ Tech Stack
 
@@ -320,9 +281,9 @@ Backend starts at `http://localhost:8082`
 
 Seed data is loaded automatically on first run:
 ```
-Admin:   admin@comfortpg.com   / admin123
-Owner:   owner@example.com     / owner123
-Student: student@example.com   / student123
+Admin:   Admin@comfortpg.com   / admin123
+Owner:   Owner@comfortpg.com     / owner123
+Student: Student@comfortpg.com   / student123
 ```
 
 ### Frontend Setup
@@ -423,9 +384,9 @@ All three values are stored per booking in the database and visible in both the 
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | admin@comfortpg.com | admin123 |
-| Owner | owner@example.com | owner123 |
-| Student | student@example.com | student123 |
+| Admin | Admin@comfortpg.com | admin123 |
+| Owner | Owner@comfortpg.com | owner123 |
+| Student | Student@comfortpg.com | student123 |
 
 > **Test Payment Card:** 4111 1111 1111 1111 · Expiry: 12/26 · CVV: 123 · OTP: 1234
 
@@ -433,14 +394,7 @@ All three values are stored per booking in the database and visible in both the 
 
 ## 👨‍💻 Author
 
-**Jignesh** — Full Stack Developer  
-CDAC Project · 2026
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+**Jignesh** — Full Stack Developer 2026
 
 ---
 
